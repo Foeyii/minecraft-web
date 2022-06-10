@@ -160,7 +160,21 @@ p {
     height: 71.5%;
 	background: rgb(78, 78, 78);
 	border: 0.3rem solid black;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
 }	
+
+.group img{
+	width: 100%;
+}
+
+.group{
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	margin: 2rem;
+}
 
 @media (max-width: 750px){
 	.container{
