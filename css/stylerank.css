@@ -224,25 +224,15 @@ a:hover {
 	text-decoration : none;
 	}
 
-.backrank img {
-	width: 225px;
-	-webkit-animation-name: backrank;
-			animation-name: backrank;
-	-webkit-animation-duration: 5s;
-			animation-duration: 5s;
-	-webkit-animation-iteration-count: infinite;
-			animation-iteration-count: infinite;
-	-webkit-animation-timing-function: ease-in-out;
-			animation-timing-function: ease-in-out;
-			justify-content: right;
-}
-
 .backranks{
     float: right;
-    width: 500px;
-    height: 500px;
+    width: 51.7%;
+    height: 71.5%;
+	background: rgb(78, 78, 78);
+	border: 0.3rem solid black;
 }
-.backranks::after{
+
+.clearfix::after{
     display:table;
     content:"";
     clear:both;
